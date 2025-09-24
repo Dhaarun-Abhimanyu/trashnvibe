@@ -1,0 +1,35 @@
+.app-root { min-height: 100vh; }
+
+.top-row {
+  display:flex;
+  gap:16px;
+  margin-bottom:16px;
+}
+.top-row .card { flex:1; }
+
+.income-row {
+  display:flex;
+  gap:12px;
+  align-items:center;
+}
+.income-row input {
+  flex:1;
+  padding:8px 10px;
+  border-radius:6px;
+  border:1px solid #ddd;
+}
+.summary { text-align:right; min-width:200px; font-size:14px; color:var(--muted); }
+
+.middle-row {
+  display:flex;
+  gap:16px;
+  margin-top:12px;
+}
+.middle-row .card { flex:1; min-height:320px; display:flex; flex-direction:column; }
+
+.bottom-row { margin-top:16px; }
+
+@media (max-width:900px){
+  .top-row, .middle-row { flex-direction: column; }
+  .summary { text-align:left; }
+}

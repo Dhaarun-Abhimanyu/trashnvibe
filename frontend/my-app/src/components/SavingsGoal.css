@@ -1,0 +1,8 @@
+.savings-goal label { display:block; font-size:14px; margin-bottom:6px; }
+.savings-goal input {
+  padding:8px; border-radius:6px; border:1px solid #e5e7eb; width:100%;
+  margin-bottom:8px;
+}
+.goal-row { display:flex; justify-content:space-between; color:var(--muted); font-size:14px; }
+.progress-bar { height:10px; background:#f1f1f1; border-radius:6px; margin-top:8px; overflow:hidden; }
+.progress-bar .filled { height:100%; background:var(--accent); transition:width .3s ease; }

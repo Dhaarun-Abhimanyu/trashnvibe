@@ -1,0 +1,3 @@
+.chart-box h3 { margin-bottom:8px; }
+.chart-box .muted { color:var(--muted); }
+.chart-total { margin-top:8px; font-weight:600; color:#333; }

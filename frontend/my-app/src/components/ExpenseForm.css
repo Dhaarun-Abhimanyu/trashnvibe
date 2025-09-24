@@ -1,0 +1,17 @@
+.expense-form h3 { margin-bottom:8px; }
+.expense-form .row {
+  display:flex; gap:8px; align-items:center;
+}
+.expense-form input {
+  padding:8px 10px; border-radius:6px; border:1px solid #e5e7eb;
+  flex:1;
+}
+.expense-form button {
+  padding:8px 12px; border-radius:6px; border:0;
+  background:var(--accent); color:white; cursor:pointer;
+}
+.expense-form button:hover { opacity:0.95; }
+@media (max-width:600px){
+  .expense-form .row { flex-direction:column; }
+  .expense-form button { width:100%; }
+}
